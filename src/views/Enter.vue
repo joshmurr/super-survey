@@ -6,9 +6,7 @@
   </div>
   <div class="enter">
     <div v-if="stage === 'home'" class="been">
-      <p>
-        Hello and welcome to Super Survey!
-      </p>
+      <p>Have you used Super Survey before?</p>
       <div class="buttons">
         <span class="button  is-medium is-link"
               @click="$router.push({ name: 'enter', params: {
