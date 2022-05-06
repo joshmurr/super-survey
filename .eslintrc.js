@@ -11,10 +11,8 @@ module.exports = {
     'no-multi-assign': 'off',
     'no-param-reassign': 'off',
     'import/no-extraneous-dependencies': 'off',
-    semi: [2, 'always'],
-    quotes: ['error', 'double'],
   },
   parserOptions: {
     parser: 'babel-eslint',
   },
-}
+};

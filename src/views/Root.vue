@@ -40,8 +40,8 @@ export default {
 
   created() {
     this.$db
-      .collection("surveys")
-      .orderBy("title")
+      .collection('surveys')
+      .orderBy('title')
       .get()
       .then((snapshot) => {
         const surveyData = snapshot.docs.map(doc => ({
